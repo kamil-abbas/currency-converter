@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left-side">
+        <img src="./logo.svg" alt="logo" />
+      </div>
+      <div class="center">
+        <ul>
+          <li>BANK</li>
+          <li>BİZNES</li>
+          <li>İNVESTİSİYA</li>
+          <li>SIĞORTA</li>
+          <li>MOBİL</li>
+          <li>SƏYAHƏT</li>
+          <li>ƏYLƏNCƏ</li>
+        </ul>
+      </div>
+      <div class="right-side">
+        <div class="login">
+            <span>GİRİŞ</span>
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="title"><h1>Onlayn valyuta çeviricisi</h1></div>
+            <div class="converter-area">
+                <div class="from">
+                    <span>Mənim pul vahidim</span>
+                    <div class="first-currency">
+                        <div class="rub1 currency-1">RUB</div>
+                        <div class="usd1 currency-1">USD</div>
+                        <div class="eur1 currency-1">EUR</div>
+                        <div class="gbp1 currency-1">GBP</div>
+                    </div>
+                    <div class="input-wrapper">
+                      <div class="input-box">
+                        <div class="input-area">
+                          <input type="number" name="first-currency" id="first-currency" value=1>
+                          <div class="rate-info">
+                            <span>1 RUB = 0.0135 USD</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="to">
+                    <span class="to-span-left-pad">Çevirmək istədiyim pul vahidi</span>
+                    <div class="second-currency">
+                        <div class="rub2 currency-2">RUB</div>
+                        <div class="usd2 currency-2">USD</div>
+                        <div class="eur2 currency-2">EUR</div>
+                        <div class="gbp2 currency-2">GBP</div>
+                    </div>
+                    <div class="input-wrapper">
+                      <div class="input-box">
+                        <div class="input-area">
+                          <input type="number" name="second-currency" id="second-currency" value="0.0135">
+                          <div class="rate-info">
+                            <span>1 USD = 73.8896 RUB</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>
