@@ -61,6 +61,10 @@ function enterNumber(
       input1.addEventListener("keyup", (event) => {
         input2.value = input1.value * val;
       });
+
+      input1.addEventListener("change", (event) => {
+        input2.value = input1.value * val;
+      });
     })
     .catch((err) => {
         console.log("Səhv gedən nəsə var...");
@@ -81,6 +85,10 @@ function enterNumber(
       }
 
       input2.addEventListener("keyup", (event) => {
+        input1.value = input2.value * val;
+      });
+
+      input2.addEventListener("change", (event) => {
         input1.value = input2.value * val;
       });
     })
